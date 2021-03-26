@@ -7,15 +7,15 @@
 // TODO: Add little delay after sending commands to the pod, since pushing two or more buttons
 //       simultaneuously seems to restart the pod and is probably not the best idea...
 
-int PinButton1 = 13;
-int PinButton2 = 12;
-int PinButton3 = 11;
-int PinButton4 = 10;
+const int PinButton1 = 13;
+const int PinButton2 = 12;
+const int PinButton3 = 11;
+const int PinButton4 = 10;
 
-int PinLED1 = 5;
-int PinLED2 = 4;
-int PinLED3 = 3;
-int PinLED4 = 2;
+const int PinLED1 = 7;
+const int PinLED2 = 6;
+const int PinLED3 = 5;
+const int PinLED4 = 4;
 
 int currentProg = 0; // So we can see if we even need to change the Program
 
